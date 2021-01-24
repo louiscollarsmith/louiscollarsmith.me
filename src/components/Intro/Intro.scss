@@ -1,0 +1,35 @@
+.intro {
+  background-color: #ffa268;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: inherit;
+
+  &__letter {
+    &:hover {
+      // Add fancy animation
+    }
+  }
+
+  &__title {
+    font-size: 80pt;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__subtitle {
+    font-size: 32pt;
+    &--left {
+      text-align: left;
+    }
+
+    &--right {
+      text-align: right;
+    }
+  }
+}

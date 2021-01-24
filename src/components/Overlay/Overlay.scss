@@ -1,0 +1,50 @@
+.overlay {
+  position: fixed;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  pointer-events: none;
+  padding: 40px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__language {
+    font-size: 14pt;
+    pointer-events: initial;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &--accent {
+      pointer-events: none;
+    }
+
+    &:hover,
+    &--accent {
+      color: white;
+    }
+
+    &-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    &-delimiter {
+      margin: 0 6px;
+    }
+  }
+
+  &__nav {
+    &-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      // background-color: black;
+    }
+  }
+}
