@@ -11,7 +11,10 @@ export default function App() {
         <Pane>
           <Intro />
         </Pane>
-        <Pane />
+
+        <Pane>
+          <div>Test</div>
+        </Pane>
       </div>
     </div>
   );
